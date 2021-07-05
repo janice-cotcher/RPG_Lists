@@ -1,7 +1,7 @@
 def nLists(lists):
     """Assign and print numerical values to items in a list"""
-    for list in lists:
-        print(f"{lists.index(list)+1}. {list}")
+    for item in lists:
+        print(f"{lists.index(item)+1}. {item}")
 
 
 # define the inventory lists and print them in numerical lists
